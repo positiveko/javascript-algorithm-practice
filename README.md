@@ -1,3 +1,3 @@
 # javascript algorithms practice
 
-[Array](./array.md)
+- [twoSum](./twoSum.md)
