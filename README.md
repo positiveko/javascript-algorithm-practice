@@ -1,7 +1,12 @@
 # javascript algorithms practice
 
+
+## Problem Solving
 - [twoSum](./twoSum.md)
 - [reverseNum](./reverseNum.md)
 - [getLengthOfStr](./getLengthOfStr.md)
-- [STACK in javascript](./stack.md)
-- [QUEUE in javascript](./queue.md)
+
+## Data Structures
+- [Stack](./stack.md)
+- [Queue](./queue.md)
+- [Linked List](./linked_list.md)
