@@ -3,71 +3,77 @@
 ![IMG_5CDCD1440D01-1](https://user-images.githubusercontent.com/69200669/141116513-deda77a4-7a35-46df-888c-dc487b826761.jpeg)
 
 ```js
-function Stack() {
-  this.store = [];
-  this.top = 0;
-  this.push = push;
-  this.pop = pop;
-  this.peek = peek;
-  this.clear = clear;
-  this.length = length;
-}
-
-function push(item) {
-  this.store[this.top++] = item;
-}
-
-function pop() {
-  return this.store[--this.top];
-}
-
-function peek() {
-  return this.store[this.top - 1];
-}
-
-function length() {
-  return this.top;
-}
-
-function clear() {
-  this.top = 0;
-}
-
-const stack = new Stack();
-stack.push(1);
-stack.push(2);
-stack.push(3);
-stack.length(); // 3
-stack.pop();
-stack.peek(); // 2
-```
-
-```js
 class Stack {
   constructor() {
-    this.store = [];
-    this.top = 0;
+    this.items = [];
+    this.count = 0;
   }
 
-  push(item) {
-    this.store[this.top++] = item;
+  // Add element to top of stack
+  push(element) {
+    this.items[this.count] = element;
+    this.count += 1;
+    return this.count - 1;
   }
+
+  // Return and remove top element in stack
+  // Return undefined if stack is empty
   pop() {
-    return this.store[--this.top];
+    if (this.count == 0) return undefined;
+    let deleteItem = this.items[this.count - 1];
+    this.count -= 1;
+    return deleteItem;
   }
+
+  // Check top element in stack
   peek() {
-    return this.store[this.top - 1];
+    return this.items[this.count - 1];
   }
-  length() {
-    return this.top;
+
+  // Check if stack is empty
+  isEmpty() {
+    return this.count == 0;
+  }
+
+  // Check size of stack
+  size() {
+    return this.count;
+  }
+
+  // Print elements in stack
+  print() {
+    let str = '';
+    for (let i = 0; i < this.count; i++) {
+      str += this.items[i] + ' ';
+    }
+    return str;
+  }
+
+  // Clear stack
+  clear() {
+    this.items = [];
+    this.count = 0;
+    return this.items;
   }
 }
 
 const stack = new Stack();
-stack.push(1);
-stack.push(2);
-stack.push(3);
-stack.length(); // 3
+
+stack.isEmpty();
+stack.push(100);
+stack.push(200);
+stack.peek();
+stack.push(300);
+
 stack.pop();
-stack.peek(); // 2
+stack.pop();
+
+stack.clear();
+
+stack.size();
+stack.isEmpty();
 ```
+
+### reference
+
+- [Stack Data Structure | JavaScript](https://www.youtube.com/watch?v=wtynhUwS5hI)
