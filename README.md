@@ -16,6 +16,8 @@
 - [카펫](./카펫.md)
 - [K번째 수](./K번째_수.md)
 - [가장 큰 수](./가장_큰_수.md)
+- [단어 변환](./단어_변환.md)
+- [네트워크](./네트워크.md)
 ## Data Structures
 - [Stack](./stack.md)
 - [Queue](./queue.md)
