@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "scope": "markdown",
+    "prefix": "solution",
+    "body": [
+      "# ${1}",
+      "\n",
+      "[문제](${2})",
+      "\n",
+      "```js",
+      "\n",
+      "```",
+    ],
+    "description": "solutionForm"
+  }
+}
