@@ -1,7 +1,7 @@
 # javascript algorithms practice
 
-
 ## Problem Solving
+
 - [twoSum](./twoSum.md)
 - [reverseNum](./reverseNum.md)
 - [getLengthOfStr](./getLengthOfStr.md)
@@ -24,7 +24,10 @@
 - [부분집합 구하기](./부분집합_구하기.md)
 - [순열 구하기](./순열_구하기.md)
 - [타겟 넘버](./타겟_넘버.md)
+- [여행경로](./여행경로.md)
+
 ## Data Structures
+
 - [Stack](./stack.md)
 - [Queue](./queue.md)
 - [Linked List](./linked_list.md)
