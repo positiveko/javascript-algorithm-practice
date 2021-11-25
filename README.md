@@ -27,6 +27,9 @@
 - [여행경로](./여행경로.md)
 - [이분검색](./이분검색.md)
 - [입국심사](./입국심사.md)
+- [징검다리](./징검다리.md)
+- [Binary search](./binary_search.md)
+- [Sqrt(x)](./sqrt.md)
 
 ## Data Structures
 
