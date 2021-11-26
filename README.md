@@ -30,7 +30,12 @@
 - [징검다리](./징검다리.md)
 - [Binary search](./binary_search.md)
 - [Sqrt(x)](./sqrt.md)
-
+- [Guess Number Higher or Lower](./Guess_Number_Higher_or_Lower.md)
+- [Search in Rotated Sorted Array](./Search_in_Rotated_Sorted_Array.md)
+- [Find Peak Element](./Find_Peak_Element.md)
+- [Find Minimum in Rotated Sorted Array](./Find_Minimum_in_Rotated_Sorted_Array.md)
+- [Search for a Range](./Search_for_a_Range.md)
+- [Find K Closest Elements](./Find_K_Closest_Elements.md)
 ## Data Structures
 
 - [Stack](./stack.md)
