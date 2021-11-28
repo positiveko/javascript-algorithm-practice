@@ -36,6 +36,9 @@
 - [Find Minimum in Rotated Sorted Array](./Find_Minimum_in_Rotated_Sorted_Array.md)
 - [Search for a Range](./Search_for_a_Range.md)
 - [Find K Closest Elements](./Find_K_Closest_Elements.md)
+- [Valid Perfect Square](./Valid_Perfect_Square.md)
+- [Find Smallest Letter Greater Than Target](./Find_Smallest_Letter_Greater_Than_Target.md)
+- [Find Minimum in Rotated Sorted Array II](./Find_Minimum_in_Rotated_Sorted_Array_II.md)
 ## Data Structures
 
 - [Stack](./stack.md)
