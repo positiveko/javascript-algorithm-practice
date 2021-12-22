@@ -39,6 +39,7 @@
 - [Valid Perfect Square](./Valid_Perfect_Square.md)
 - [Find Smallest Letter Greater Than Target](./Find_Smallest_Letter_Greater_Than_Target.md)
 - [Find Minimum in Rotated Sorted Array II](./Find_Minimum_in_Rotated_Sorted_Array_II.md)
+- [Reverse String](./reverse_string.md)
 ## Data Structures
 
 - [Stack](./stack.md)
